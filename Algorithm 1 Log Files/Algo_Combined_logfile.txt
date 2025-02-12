@@ -1,0 +1,8 @@
+[2025-01-14 20:11:04] [INFO] Loaded thresholds for 24 tickers.
+[2025-01-14 20:13:50] [INFO] Loaded thresholds for 24 tickers.
+[2025-01-14 20:16:50] [INFO] Loaded thresholds for 24 tickers.
+[2025-01-14 20:45:34] [INFO] Combined trades saved => /content/drive/MyDrive/Capstone Share/colab/2021_selectedTickers/Combined_Algo4_5_Trades.csv, total: 64 rows.
+[2025-01-14 20:48:27] [INFO] Loaded thresholds for 24 tickers.
+[2025-01-14 23:01:13] [INFO] Combined trades saved => /content/drive/MyDrive/Capstone Share/test/2021_selectedTickers/Combined_Algo4_5_Trades_option8.csv, total: 415 rows.
+[2025-01-15 06:25:46] [INFO] Loaded thresholds for 24 tickers.
+[2025-01-15 09:26:15] [INFO] Combined trades saved => /content/drive/MyDrive/Capstone Share/test/2021_selectedTickers/Combined_Algo4_5_Trades_option8.csv, total: 394 rows.

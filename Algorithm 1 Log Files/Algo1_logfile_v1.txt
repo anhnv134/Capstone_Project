@@ -1,0 +1,128 @@
+[2025-01-15 13:14:49] Starting the main function....
+[2025-01-15 13:14:49] Found 12 monthly folders under '/content/drive/MyDrive/2021':
+[2025-01-15 13:14:49]    -> Cash Data April 2021
+[2025-01-15 13:14:49]    -> Cash Data August 2021
+[2025-01-15 13:14:49]    -> Cash Data December 2021
+[2025-01-15 13:14:49]    -> Cash Data February 2021
+[2025-01-15 13:14:49]    -> Cash Data January 2021
+[2025-01-15 13:14:49]    -> Cash Data July 2021
+[2025-01-15 13:14:49]    -> Cash Data June 2021
+[2025-01-15 13:14:49]    -> Cash Data March 2021
+[2025-01-15 13:14:49]    -> Cash Data May 2021
+[2025-01-15 13:14:49]    -> Cash Data November 2021
+[2025-01-15 13:14:49]    -> Cash Data October 2021
+[2025-01-15 13:14:49]    -> Cash Data September 2021
+[2025-01-15 13:14:56]  Cash Data April 2021 => 1913 CSV files found.
+[2025-01-15 13:15:02]  Cash Data August 2021 => 1846 CSV files found.
+[2025-01-15 13:15:04]  Cash Data December 2021 => 1921 CSV files found.
+[2025-01-15 13:15:04]  Cash Data February 2021 => 1837 CSV files found.
+[2025-01-15 13:15:04]  Cash Data January 2021 => 1845 CSV files found.
+[2025-01-15 13:15:11]  Cash Data July 2021 => 1830 CSV files found.
+[2025-01-15 13:15:12]  Cash Data June 2021 => 1841 CSV files found.
+[2025-01-15 13:15:17]  Cash Data March 2021 => 1864 CSV files found.
+[2025-01-15 13:15:17]  Cash Data May 2021 => 1825 CSV files found.
+[2025-01-15 13:15:17]  Cash Data November 2021 => 1896 CSV files found.
+[2025-01-15 13:15:17]  Cash Data October 2021 => 1884 CSV files found.
+[2025-01-15 13:15:17]  Cash Data September 2021 => 1851 CSV files found.
+[2025-01-15 15:22:28] Error reading CSV: '/content/drive/MyDrive/2021/Cash Data May 2021/TOUCHWOOD.csv': Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
+[2025-01-15 15:29:56] Starting the main function....
+[2025-01-15 15:29:57] Found 12 monthly folders under '/content/drive/MyDrive/2021':
+[2025-01-15 15:29:57]    -> Cash Data April 2021
+[2025-01-15 15:29:57]    -> Cash Data August 2021
+[2025-01-15 15:29:57]    -> Cash Data December 2021
+[2025-01-15 15:29:57]    -> Cash Data February 2021
+[2025-01-15 15:29:57]    -> Cash Data January 2021
+[2025-01-15 15:29:57]    -> Cash Data July 2021
+[2025-01-15 15:29:57]    -> Cash Data June 2021
+[2025-01-15 15:29:57]    -> Cash Data March 2021
+[2025-01-15 15:29:57]    -> Cash Data May 2021
+[2025-01-15 15:29:57]    -> Cash Data November 2021
+[2025-01-15 15:29:57]    -> Cash Data October 2021
+[2025-01-15 15:29:57]    -> Cash Data September 2021
+[2025-01-15 15:30:05]  Cash Data April 2021 => 1913 CSV files found.
+[2025-01-15 15:30:12]  Cash Data August 2021 => 1846 CSV files found.
+[2025-01-15 15:30:12]  Cash Data December 2021 => 1921 CSV files found.
+[2025-01-15 15:30:12]  Cash Data February 2021 => 1837 CSV files found.
+[2025-01-15 15:30:12]  Cash Data January 2021 => 1845 CSV files found.
+[2025-01-15 15:30:17]  Cash Data July 2021 => 1830 CSV files found.
+[2025-01-15 15:30:19]  Cash Data June 2021 => 1841 CSV files found.
+[2025-01-15 15:30:19]  Cash Data March 2021 => 1864 CSV files found.
+[2025-01-15 15:30:24]  Cash Data May 2021 => 1825 CSV files found.
+[2025-01-15 15:30:24]  Cash Data November 2021 => 1896 CSV files found.
+[2025-01-15 15:30:24]  Cash Data October 2021 => 1884 CSV files found.
+[2025-01-15 15:30:24]  Cash Data September 2021 => 1851 CSV files found.
+[2025-01-15 20:22:06] Starting the main function....
+[2025-01-15 20:22:07] Found 12 monthly folders under '/content/drive/MyDrive/2021':
+[2025-01-15 20:22:08]    -> Cash Data April 2021
+[2025-01-15 20:22:08]    -> Cash Data August 2021
+[2025-01-15 20:22:08]    -> Cash Data December 2021
+[2025-01-15 20:22:08]    -> Cash Data February 2021
+[2025-01-15 20:22:08]    -> Cash Data January 2021
+[2025-01-15 20:22:08]    -> Cash Data July 2021
+[2025-01-15 20:22:08]    -> Cash Data June 2021
+[2025-01-15 20:22:08]    -> Cash Data March 2021
+[2025-01-15 20:22:08]    -> Cash Data May 2021
+[2025-01-15 20:22:08]    -> Cash Data November 2021
+[2025-01-15 20:22:08]    -> Cash Data October 2021
+[2025-01-15 20:22:08]    -> Cash Data September 2021
+[2025-01-15 20:22:13]  Cash Data April 2021 => 1913 CSV files found.
+[2025-01-15 20:22:21]  Cash Data August 2021 => 1846 CSV files found.
+[2025-01-15 20:22:21]  Cash Data December 2021 => 1921 CSV files found.
+[2025-01-15 20:22:21]  Cash Data February 2021 => 1837 CSV files found.
+[2025-01-15 20:22:21]  Cash Data January 2021 => 1845 CSV files found.
+[2025-01-15 20:22:28]  Cash Data July 2021 => 1830 CSV files found.
+[2025-01-15 20:22:30]  Cash Data June 2021 => 1841 CSV files found.
+[2025-01-15 20:22:30]  Cash Data March 2021 => 1864 CSV files found.
+[2025-01-15 20:22:34]  Cash Data May 2021 => 1825 CSV files found.
+[2025-01-15 20:22:34]  Cash Data November 2021 => 1896 CSV files found.
+[2025-01-15 20:22:34]  Cash Data October 2021 => 1884 CSV files found.
+[2025-01-15 20:22:34]  Cash Data September 2021 => 1851 CSV files found.
+[2025-01-15 20:49:19] Starting the main function....
+[2025-01-15 20:49:20] Found 12 monthly folders under '/content/drive/MyDrive/2021':
+[2025-01-15 20:49:20]    -> Cash Data April 2021
+[2025-01-15 20:49:20]    -> Cash Data August 2021
+[2025-01-15 20:49:20]    -> Cash Data December 2021
+[2025-01-15 20:49:20]    -> Cash Data February 2021
+[2025-01-15 20:49:20]    -> Cash Data January 2021
+[2025-01-15 20:49:20]    -> Cash Data July 2021
+[2025-01-15 20:49:20]    -> Cash Data June 2021
+[2025-01-15 20:49:20]    -> Cash Data March 2021
+[2025-01-15 20:49:20]    -> Cash Data May 2021
+[2025-01-15 20:49:20]    -> Cash Data November 2021
+[2025-01-15 20:49:20]    -> Cash Data October 2021
+[2025-01-15 20:49:20]    -> Cash Data September 2021
+[2025-01-15 20:49:28]  Cash Data April 2021 => 1913 CSV files found.
+[2025-01-15 20:49:35]  Cash Data August 2021 => 1846 CSV files found.
+[2025-01-15 20:49:35]  Cash Data December 2021 => 1921 CSV files found.
+[2025-01-15 20:49:35]  Cash Data February 2021 => 1837 CSV files found.
+[2025-01-15 20:49:35]  Cash Data January 2021 => 1845 CSV files found.
+[2025-01-15 20:49:40]  Cash Data July 2021 => 1830 CSV files found.
+[2025-01-15 20:49:40]  Cash Data June 2021 => 1841 CSV files found.
+[2025-01-15 20:49:40]  Cash Data March 2021 => 1864 CSV files found.
+[2025-01-15 20:49:43]  Cash Data May 2021 => 1825 CSV files found.
+[2025-01-15 20:49:43]  Cash Data November 2021 => 1896 CSV files found.
+[2025-01-15 20:49:43]  Cash Data October 2021 => 1884 CSV files found.
+[2025-01-15 20:49:43]  Cash Data September 2021 => 1851 CSV files found.
+[2025-01-15 23:00:00] [INFO] Total distinct tickers across subfolders: 2188
+[2025-01-15 23:00:00] [INFO] Tickers with valid data after merging: 2188
+[2025-01-15 23:00:00] [INFO] Combined full-year data for 2188 tickers.
+[2025-01-15 23:01:01] [INFO] Resampled to 5-min for 2188 tickers.
+[2025-01-15 23:01:21] [INFO] Exported Algo1_final_intraday_stats.csv with 2148 rows.
+[2025-01-15 23:01:21] === DISTRIBUTION ANALYSIS  (placeholder) ===
+[2025-01-15 23:01:21] 
+       FinalRollingVolume     FinalATR     FinalADX
+count        2.148000e+03  2148.000000  2148.000000
+mean         2.024831e+04     2.509252    29.032675
+std          1.897135e+05     9.031280    20.158134
+min          0.000000e+00     0.000011     1.989544
+25%          4.332200e+02     0.177339    16.424237
+50%          1.666195e+03     0.625354    23.391497
+75%          6.530757e+03     1.997875    33.807030
+max          7.866601e+06   190.563416   100.000000
+[2025-01-15 23:01:21] 
+=== Tickers passing custom thresholds ===
+[2025-01-15 23:01:21] Thresholds: Volume>=20000, ATR>=0.7, ADX>=25
+[2025-01-15 23:01:21] Number passing: 28
+[2025-01-15 23:01:21] Tickers: ['HINDALCO', 'TATAMOTORS', 'SUPRIYA', 'JSWSTEEL (1)', 'MOTHERSUMI', 'DELTACORP', 'OIL', 'INFY', 'RESPONIND', 'HDFCBANK', 'POONAWALLA', 'DHANI', 'ADANIPORTS', 'ABFRL', 'IRCTC', 'APOLLO', 'AUBANK', 'BALRAMCHIN', 'HDFC', 'TATACOMM', 'TATAMTRDVR', 'ZENSARTECH', 'LATENTVIEW', 'DBL', 'NIITLTD', 'CAMLINFINE', 'M&M', 'INTELLECT']
+[2025-01-15 23:01:21] [INFO] Exported Algo1_filtered_tickers.csv with 28 rows.
+[2025-01-15 23:01:21] End of the main function.

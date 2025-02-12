@@ -1,0 +1,17 @@
+[2025-01-10 05:53:50] Found 12 monthly folders under '/content/drive/MyDrive/2021':
+[2025-01-10 05:53:57] Cash Data April 2021 => 1913 CSV files found.
+[2025-01-10 05:54:02] Cash Data August 2021 => 1846 CSV files found.
+[2025-01-10 05:54:02] Cash Data December 2021 => 1921 CSV files found.
+[2025-01-10 05:54:02] Cash Data February 2021 => 1837 CSV files found.
+[2025-01-10 05:54:02] Cash Data January 2021 => 1845 CSV files found.
+[2025-01-10 05:54:11] Cash Data July 2021 => 1830 CSV files found.
+[2025-01-10 05:54:11] Cash Data June 2021 => 1841 CSV files found.
+[2025-01-10 05:54:11] Cash Data March 2021 => 1864 CSV files found.
+[2025-01-10 05:54:11] Cash Data May 2021 => 1825 CSV files found.
+[2025-01-10 05:54:11] Cash Data November 2021 => 1896 CSV files found.
+[2025-01-10 05:54:12] Cash Data October 2021 => 1884 CSV files found.
+[2025-01-10 05:54:12] Cash Data September 2021 => 1851 CSV files found.
+[2025-01-10 06:43:07] Error reading CSV: /content/drive/MyDrive/2021/Cash Data June 2021/ATLANTA.csv - Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
+[2025-01-10 06:43:08] Error reading CSV: /content/drive/MyDrive/2021/Cash Data September 2021/ATLANTA.csv - Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
+[2025-01-10 07:18:30] Error reading CSV: /content/drive/MyDrive/2021/Cash Data September 2021/GFSTEELS.csv - Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
+[2025-01-10 07:18:37] Error reading CSV: /content/drive/MyDrive/2021/Cash Data September 2021/ICICIFMCG.csv - Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
