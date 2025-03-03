@@ -11,7 +11,7 @@ from datetime import datetime
 #####################################
 # CONFIGURE LOGGING
 #####################################
-LOG_DIR = "C:/Users/vuanh/Downloads/colab"
+LOG_DIR = "../colab"
 
 # Log file path
 LOG_FILE = os.path.join(LOG_DIR, "Algo1_logfile.txt")
@@ -139,7 +139,7 @@ def main():
     and then saves them to a CSV file called 'DataDrivenThresholds.csv'.
     """
 
-    data_path = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers/Enriched_5Min_Data.csv"
+    data_path = "../colab/2021_selectedTickers/Enriched_5Min_Data.csv"
     if not os.path.exists(data_path):
         log_message(f"[INFO] CSV not found at: {data_path}")
         return
@@ -179,7 +179,7 @@ def main():
     df_thresholds = pd.DataFrame(threshold_rows)
     df_thresholds.sort_values('Ticker', inplace=True)
 
-    out_csv = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers/DataDrivenThresholds.csv"
+    out_csv = "../colab/2021_selectedTickers/DataDrivenThresholds.csv"
     df_thresholds.to_csv(out_csv, index=False)
 
     log_message("====== DATA-DRIVEN THRESHOLDS PER TICKER (SAVED) ======")

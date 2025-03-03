@@ -1,4 +1,3 @@
-
 """##**Algorithm 6: Performance Tracking an d Post-Session Optimization**
 
 **Goal:**
@@ -43,7 +42,7 @@ from datetime import datetime
 #####################################
 # CONFIGURE LOGGING
 #####################################
-LOG_DIR = "C:/Users/vuanh/Downloads/colab"
+LOG_DIR = "../Downloads/colab"
 
 # Log file path
 LOG_FILE = os.path.join(LOG_DIR, "Algo1_logfile.txt")
@@ -378,9 +377,9 @@ def main():
     """
 
     # Suppose we evaluate trades from Algorithm 5
-    trades_csv_path = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers/Algo5_Trades.csv"
+    trades_csv_path = "../colab/2021_selectedTickers/Algo5_Trades.csv"
 
-    trades_csv_path = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers/Algo4_Trades.csv"
+    trades_csv_path = "../colab/2021_selectedTickers/Algo4_Trades.csv"
 
     log_message(f"[INFO] Loading trades from: {trades_csv_path}")
     df_trades = load_today_trades(trades_csv_path)

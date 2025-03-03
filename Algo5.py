@@ -68,7 +68,7 @@ from datetime import datetime, time, timedelta
 #####################################
 # CONFIGURE LOGGING
 #####################################
-LOG_DIR = "C:/Users/vuanh/Downloads/colab"
+LOG_DIR = "../colab"
 
 # Log file path
 LOG_FILE = os.path.join(LOG_DIR, "Algo1_logfile.txt")
@@ -858,8 +858,8 @@ def advanced_breakout_signals_algo5(
 # PART C. MAIN
 ###############################################################################
 def main():
-    data_5m_path = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers/Enriched_5Min_Data.csv"
-    out_path = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers/Algo5_Trades.csv"
+    data_5m_path = "../colab/2021_selectedTickers/Enriched_5Min_Data.csv"
+    out_path = "../colab/2021_selectedTickers/Algo5_Trades.csv"
 
     if not os.path.exists(data_5m_path):
         log_message(f"[ERROR] 5-min data CSV not found: {data_5m_path}")
@@ -874,7 +874,7 @@ def main():
     df_5m_all.sort_values(['Ticker', 'Timestamp'], inplace=True)
 
     # Load thresholds
-    thresholds_csv = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers/DataDrivenThresholds.csv"
+    thresholds_csv = "../colab/2021_selectedTickers/DataDrivenThresholds.csv"
     if not os.path.exists(thresholds_csv):
         log_message("[WARNING] No thresholds CSV, using fallback defaults.")
         ticker_threshold_map = {}

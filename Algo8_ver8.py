@@ -36,7 +36,7 @@ warnings.filterwarnings("ignore")
 # ============================================================================
 class StrategyConfig:
     # Data and Logging
-    DATA_PATH       = "E:/VuAnhData/colab/2021_selectedTickers/"
+    DATA_PATH       = "../colab/2021_selectedTickers/"
     START_DT        = pd.to_datetime("2021-01-01")
     END_DT          = pd.to_datetime("2021-12-31")
     LOG_PATH        = "./improved_strategy_log.txt"

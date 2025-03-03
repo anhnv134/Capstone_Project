@@ -17,8 +17,8 @@ from collections import defaultdict
 import logging
 from datetime import datetime
 
-LOG_DIR = "C:/Users/vuanh/Downloads/colab"
-base_dir = "C:/Users/vuanh/Downloads/2021"
+LOG_DIR = "../colab"
+base_dir = "../2021"
 # Log file path
 LOG_FILE = os.path.join(LOG_DIR, "Algo1_logfile_v1.txt")
 
@@ -48,8 +48,8 @@ def log_message(message, log_file=LOG_FILE):
 #  USER-DEFINED PATHS
 ##############################
 
-BASE_2021_DIR = "C:/Users/vuanh/Downloads/2021"
-BASE_2022_DIR = "E:/VuAnhData/2022"
+BASE_2021_DIR = "../2021"
+BASE_2022_DIR = "../2022"
 
 TIMEFRAME = "5min"
 
@@ -356,7 +356,7 @@ def main():
     stats_df = pd.DataFrame(results_list)
     stats_df.sort_values('FinalRollingVolume', ascending=False, inplace=True)
     try:
-        stats_df.to_csv("/content/drive/MyDrive/Capstone Share/colab/Algo1_final_intraday_stats.csv", index=False)
+        stats_df.to_csv("../colab/Algo1_final_intraday_stats.csv", index=False)
         log_message(f"[INFO] Exported Algo1_final_intraday_stats.csv with {len(stats_df)} rows.")
     except Exception as e:
         log_message(f"[ERROR] Error exporting Algo1_final_intraday_stats.csv: {e}")
@@ -395,15 +395,13 @@ def main():
     # print(f"Total: {len(filtered_tickers)}")
 
     # Save filtered data to a CSV file
-    filtered_df.to_csv("C:/Users/vuanh/Downloads/colab/Algo1_filtered_tickers.csv", index=False)
+    filtered_df.to_csv("../colab/Algo1_filtered_tickers.csv", index=False)
     log_message(f"[INFO] Exported Algo1_filtered_tickers.csv with {len(filtered_df)} rows.")
     log_message("End of the main function.")
 
 
 if __name__ == "__main__":
     main()
-# Check the log
-#!cat "/content/drive/MyDrive/Capstone Share/colab/Algo1_logfile.txt"
 
 """**Consistency Test**"""
 

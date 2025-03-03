@@ -74,8 +74,8 @@ class BaseConfig:
 
 
 class GroupAConfig(BaseConfig):
-    DATA_PATH = "E:/VuAnhData/test/2021_selectedTickers/"
-    OOS_PATH  = "E:/VuAnhData/test/2022_selectedTickers/"
+    DATA_PATH = "../test/2021_selectedTickers/"
+    OOS_PATH  = "../test/2022_selectedTickers/"
     START_DT  = pd.to_datetime("2021-01-01")
     END_DT    = pd.to_datetime("2021-12-31")
     OOS_START = pd.to_datetime("2022-01-01")
@@ -91,8 +91,8 @@ class GroupAConfig(BaseConfig):
 
 class GroupBConfig(BaseConfig):
 
-    DATA_PATH = "E:/VuAnhData/test/2021_lxchem/"
-    OOS_PATH  = "E:/VuAnhData/test/2022_lxchem/"
+    DATA_PATH = "../test/2021_lxchem/"
+    OOS_PATH  = "../test/2022_lxchem/"
     START_DT  = pd.to_datetime("2021-01-01")
     END_DT    = pd.to_datetime("2021-12-31")
     OOS_START = pd.to_datetime("2022-01-01")

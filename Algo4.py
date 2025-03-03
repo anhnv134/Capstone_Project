@@ -109,7 +109,7 @@ from datetime import datetime, time, timedelta
 #####################################
 # CONFIGURE LOGGING
 #####################################
-LOG_DIR = "C:/Users/vuanh/Downloads/colab"
+LOG_DIR = "../colab"
 
 # Log file path
 LOG_FILE = os.path.join(LOG_DIR, "Algo1_logfile.txt")
@@ -820,8 +820,8 @@ def main():
       5. Compile results into a single DataFrame -> CSV.
     """
 
-    enriched_data_path_5m = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers/Enriched_5Min_Data.csv"
-    signals_out_path = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers/Algo4_Trades.csv"
+    enriched_data_path_5m = "../colab/2021_selectedTickers/Enriched_5Min_Data.csv"
+    signals_out_path = "../colab/2021_selectedTickers/Algo4_Trades.csv"
 
     log_message("[INFO] Loading enriched 5-min data....")
     df_5m_all = pd.read_csv(enriched_data_path_5m)
@@ -851,7 +851,7 @@ def main():
     df_5m_all.sort_values(['Ticker', 'Timestamp'], inplace=True)
 
     # 2) Load the thresholds from the CSV we generated
-    thresholds_csv = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers/DataDrivenThresholds.csv"
+    thresholds_csv = "../colab/2021_selectedTickers/DataDrivenThresholds.csv"
     if not os.path.exists(thresholds_csv):
         log_message(F"[WARNING] Thresholds CSV not found: {thresholds_csv}. Using default constants.")
         ticker_threshold_map = {}
@@ -928,7 +928,7 @@ def main():
 
     df_5m_all = df_5m_all.groupby('Ticker', group_keys=False).apply(lambda x: compute_indicators(x))
 
-    df_5m_all.to_csv("C:/Users/vuanh/Downloads/colab/2021_selectedTickers/Enriched_5Min_Data.csv",
+    df_5m_all.to_csv("../colab/2021_selectedTickers/Enriched_5Min_Data.csv",
                      index=False)
 
     all_trades = []

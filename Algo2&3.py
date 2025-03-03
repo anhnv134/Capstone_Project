@@ -61,7 +61,7 @@ import logging
 #####################################
 # CONFIGURE LOGGING
 #####################################
-LOG_DIR = "C:/Users/vuanh/Downloads/colab"
+LOG_DIR = "../colab"
 
 # Log file path
 LOG_FILE = os.path.join(LOG_DIR, "Algo1_logfile.txt")
@@ -102,7 +102,7 @@ def safe_execute(func, *args, **kwargs):
 ################################################################################
 # USER SETTINGS
 ################################################################################
-BASE_2021_DIR = "C:/Users/vuanh/Downloads/colab/2021_selectedTickers"
+BASE_2021_DIR = "../colab/2021_selectedTickers"
 CHOSEN_TICKERS = ['HINDALCO', 'TATAMOTORS', 'JSWSTEEL', 'DELTACORP', 'OIL', 'INFY',
                   'RESPONIND', 'HDFCBANK', 'DHANI', 'ADANIPORTS', 'ABFRL', 'IRCTC',
                   'APOLLO', 'AUBANK', 'BALRAMCHIN', 'HDFC', 'TATACOMM', 'TATAMTRDVR',
@@ -418,7 +418,7 @@ LSP if ASI makes a local trough below previous swings
 #####################################
 # CONFIGURE LOGGING
 #####################################
-LOG_DIR = "C:/Users/vuanh/Downloads/colab"
+LOG_DIR = "../colab"
 
 # Log file path
 LOG_FILE = os.path.join(LOG_DIR, "Algo1_logfile.txt")
@@ -601,7 +601,7 @@ def main():
 
     df_algo2 = pd.DataFrame(rows_algo2)
     df_algo2.sort_values(['Ticker', 'Date'], inplace=True)
-    df_algo2.to_csv("C:/Users/vuanh/Downloads/colab/2021_selectedTickers/Algorithm2_FibonacciLevels.csv",
+    df_algo2.to_csv("../colab/2021_selectedTickers/Algorithm2_FibonacciLevels.csv",
                     index=False)
     log_message(f"[INFO] Fibonacci results saved to 'Algorithm2_FibonacciLevels.csv'.")
 
@@ -657,7 +657,7 @@ def main():
     df_algo3 = pd.DataFrame(all_rows_asi)
     # Sort by Ticker, then Timestamp
     df_algo3.sort_values(['Ticker', 'Timestamp'], inplace=True)
-    df_algo3.to_csv("C:/Users/vuanh/Downloads/colab/2021_selectedTickers/Algorithm3_SI_ASI.csv",
+    df_algo3.to_csv("../colab/2021_selectedTickers/Algorithm3_SI_ASI.csv",
                     index=False)
     log_message(f"[INFO] SI & ASI results (Algorithm 3) saved to 'Algorithm3_SI_ASI.csv'.")
 
