@@ -1,0 +1,75 @@
+[2025-02-10 15:49:35] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 15:54:24] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 16:13:33] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 16:20:36] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 16:30:39] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 16:43:20] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 16:45:14] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 16:48:27] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 16:55:38] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 16:59:56] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 17:27:52] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 17:27:53] Attempting to load ML model for final backtest.......
+[2025-02-10 17:27:53] ML model loaded successfully for backtest usuge.
+[2025-02-10 17:27:53] Running multi-instruments backtest with ML gating
+[2025-02-10 17:30:15] Starting parameter optimization
+[2025-02-10 17:58:30] Parameter optimization results saved to: /content/drive/MyDrive/Capstone Share/test/algo_8_8/algo8_v8_param_results_3.csv
+[2025-02-10 17:58:30] Best Parameter Combo: {'partial_exit_ratio': 0.5, 'min_adx': 35, 'fib_ratios': [0.382, 0.618, 1.272, 1.618, 2.0], 'min_atr': 0.75, 'net_pl': 0.0, 'sharpe': 0.0, 'win_rate': 0.0, 'total_trades': 0}
+[2025-02-10 17:58:30] Best Performance : {'net_pl': 0.0, 'total_trades': 0, 'win_rate': 0.0, 'average_pl': 0.0, 'max_drawdown': 0.0, 'sharpe': 0.0}
+[2025-02-10 18:24:11] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-10 18:24:12] Attempting to load ML model for final backtest.......
+[2025-02-10 18:24:12] ML model loaded successfully for backtest usuge.
+[2025-02-10 18:24:12] Running multi-instruments backtest with ML gating
+[2025-02-10 18:26:37] Starting parameter optimization
+[2025-02-10 18:55:38] Parameter optimization results saved to: /content/drive/MyDrive/Capstone Share/test/algo_8_8/algo8_v8_param_results_3.csv
+[2025-02-10 18:55:38] Best Parameter Combo: {'partial_exit_ratio': 0.5, 'min_adx': 35, 'fib_ratios': [0.382, 0.618, 1.272, 1.618, 2.0], 'min_atr': 0.75, 'net_pl': 0.0, 'sharpe': 0.0, 'win_rate': 0.0, 'total_trades': 0}
+[2025-02-10 18:55:38] Best Performance : {'net_pl': 0.0, 'total_trades': 0, 'win_rate': 0.0, 'average_pl': 0.0, 'max_drawdown': 0.0, 'sharpe': 0.0}
+[2025-02-11 01:38:19] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-11 01:38:22] Attempting to load ML model for final backtest.......
+[2025-02-11 01:38:22] ML model loaded successfully for backtest usuge.
+[2025-02-11 01:38:22] Running multi-instruments backtest with ML gating
+[2025-02-11 01:44:15] Starting parameter optimization
+[2025-02-11 02:10:33] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-11 02:10:35] Attempting to load ML model for final backtest.......
+[2025-02-11 02:10:35] ML model loaded successfully for backtest usuge.
+[2025-02-11 02:10:35] Running multi-instruments backtest with ML gating
+[2025-02-11 02:17:42] Starting parameter optimization
+[2025-02-11 04:01:59] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-11 04:05:22] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-11 04:05:23] Attempting to load ML model for final backtest.......
+[2025-02-11 04:05:23] ML model loaded successfully for backtest usuge.
+[2025-02-11 04:05:23] Running multi-instruments backtest with ML gating
+[2025-02-11 04:08:47] Loaded 47894 rows from subfolders under: /content/drive/My Drive/2021_11Tickers
+[2025-02-11 04:08:48] Attempting to load ML model for final backtest.......
+[2025-02-11 04:08:48] ML model loaded successfully for backtest usuge.
+[2025-02-11 04:08:48] Running multi-instruments backtest with ML gating
+[2025-02-11 04:13:12] Starting parameter optimization
+[2025-02-11 07:30:59] Parameter optimization results saved to: /content/drive/MyDrive/Capstone Share/test/algo_8_8/algo8_v8_param_results_3.csv
+[2025-02-11 07:30:59] Best Parameter Combo: {'partial_exit_ratio': 0.5, 'min_adx': 20, 'fib_ratios': [0.382, 0.618, 1.272, 1.618, 2.0], 'min_atr': 0.5, 'net_pl': -8597.84, 'sharpe': -34.639, 'win_rate': 18.17, 'total_trades': 3071}
+[2025-02-11 07:30:59] Best Performance : {'net_pl': -8597.84, 'total_trades': 3071, 'win_rate': 18.17, 'average_pl': -2.8, 'max_drawdown': 8596.82, 'sharpe': -34.639}
+[2025-02-12 23:35:10] Loaded 47895 rows from subfolders under: E:/VuAnhData/2021
+[2025-02-12 23:35:13] Attempting to load ML model for final backtest.......
+[2025-02-12 23:35:13] ML model loaded successfully for backtest usuge.
+[2025-02-12 23:35:13] Running multi-instruments backtest with ML gating
+[2025-02-13 02:16:55] Starting parameter optimization
+[2025-02-14 11:34:55] Loaded 47894 rows from subfolders under: E:/VuAnhData/2021_11Tickers
+[2025-02-14 11:34:57] Attempting to load ML model for final backtest.......
+[2025-02-14 11:34:57] ML model loaded successfully for backtest usage.
+[2025-02-14 11:34:57] Running multi-instruments backtest with ML gating
+[2025-02-14 14:07:24] Loaded 47894 rows from subfolders under: E:/VuAnhData/2021_11Tickers
+[2025-02-14 14:07:33] Attempting to load ML model for final backtest.......
+[2025-02-14 14:07:33] ML model loaded successfully for backtest usage.
+[2025-02-14 14:07:33] Running multi-instruments backtest with ML gating
+[2025-02-18 10:57:15] Loaded 47894 rows from subfolders under: E:/VuAnhData/2021_11Tickers
+[2025-02-18 10:57:18] Attempting to load ML model for final backtest.......
+[2025-02-18 10:57:18] ML model loaded successfully for backtest usage.
+[2025-02-18 10:57:18] Running multi-instruments backtest with ML gating
+[2025-02-18 13:35:31] Starting parameter optimization
+[2025-02-18 18:32:30] Parameter optimization results saved to: E:/VuAnhData/test/algo_8_8/algo8_v8_param_results_3.csv
+[2025-02-18 18:32:30] Best Parameter Combo: {'partial_exit_ratio': 0.5, 'min_adx': 20, 'fib_ratios': [0.382, 0.618, 1.272, 1.618, 2.0], 'min_atr': 0.5, 'net_pl': np.float64(-9.07), 'sharpe': np.float64(-1.643), 'win_rate': np.float64(0.0), 'total_trades': 2}
+[2025-02-18 18:32:30] Best Performance : {'net_pl': np.float64(-9.07), 'total_trades': 2, 'win_rate': np.float64(0.0), 'average_pl': np.float64(-4.54), 'max_drawdown': np.float64(1.77), 'sharpe': np.float64(-1.643)}
+[2025-02-28 17:49:29] Loaded 47895 rows from subfolders under: E:/VuAnhData/2021
+[2025-02-28 17:49:32] Attempting to load ML model for final backtest.......
+[2025-02-28 17:49:32] ML model loaded successfully for backtest usuge.
+[2025-02-28 17:49:32] Running multi-instruments backtest with ML gating
+[2025-02-28 20:23:18] Starting parameter optimization
