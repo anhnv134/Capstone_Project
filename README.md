@@ -113,3 +113,9 @@ Our goal here is after identify a promising parameter set, verifying its robustn
 Out-of-sample historical data or live market feed (for paper trading)
 
 Best parameters derived from the optimization step
+
+** Required packages to be installed:**
+1. For Algorithm 1 - 7: It is required to install pandas package
+from cmd run the code: pip install pandas
+2. For Algorithm 8: It is required to install xgboost package
+
