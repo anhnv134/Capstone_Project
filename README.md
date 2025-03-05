@@ -115,7 +115,13 @@ Out-of-sample historical data or live market feed (for paper trading)
 Best parameters derived from the optimization step
 
 ** Required packages to be installed:**
-1. For Algorithm 1 - 7: It is required to install pandas package
+1. For Algorithm 1 - 6: It is required to install pandas package
 from cmd run the code: pip install pandas
-2. For Algorithm 8: It is required to install xgboost package
-
+2. For Algorithm 7 - 8: It is required to install joblib, xgboost package
+from cmd run the code:
+  pip install pypi
+  pip install joblib
+  pip install xgboost
+3. For Algorithm 9: It is required to install hyperopt package
+from cmd run the code:
+  pip install hyperopt
