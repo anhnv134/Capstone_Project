@@ -1,3 +1,15 @@
+**Required packages to be installed:**
+1. For Algorithm 1 - 6: It is required to install pandas package
+from cmd run the code: pip install pandas
+2. For Algorithm 7 - 8: It is required to install joblib, xgboost package
+from cmd run the code:
+  pip install pypi
+  pip install joblib
+  pip install xgboost
+3. For Algorithm 9: It is required to install hyperopt package
+from cmd run the code:
+  pip install hyperopt
+
 **Algorithm 1: Data Preprocessing and Selection of Traded Instruments**
 
 **Goal:** Our goal here is to identify which NSE stocks, futures to apply the breakout strategy to. We will focus on instruments with sufficient 1)liquidity 2)volatility and 3)trendliness.
@@ -113,15 +125,3 @@ Our goal here is after identify a promising parameter set, verifying its robustn
 Out-of-sample historical data or live market feed (for paper trading)
 
 Best parameters derived from the optimization step
-
-**** Required packages to be installed:****
-1. For Algorithm 1 - 6: It is required to install pandas package
-from cmd run the code: pip install pandas
-2. For Algorithm 7 - 8: It is required to install joblib, xgboost package
-from cmd run the code:
-  pip install pypi
-  pip install joblib
-  pip install xgboost
-3. For Algorithm 9: It is required to install hyperopt package
-from cmd run the code:
-  pip install hyperopt
